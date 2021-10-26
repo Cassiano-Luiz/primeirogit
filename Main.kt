@@ -1,20 +1,20 @@
+import kotlin.math.pow
+
 fun main(args: Array<String>) {
-    var nome = ""
-    var idade = 0
-    var cargo = ""
-    var nacionalidade =""
-    var tipo_sanguineo = ""
-    print("Qual nome do usuário?")
-    nome = readLine()!!.toString()
-    print("Qual a idade?")
-    idade = readLine()!!.toInt()
-    print("Qual sua preferência de emprego?")
-    cargo = readLine()!!.toString()
-    print("Qual seu tipo sanguíneo?")
-    tipo_sanguineo = readLine()!!.toString()
-    idade = (2021-idade)
-    println("Nome: $nome , \nIdade: $idade anos, \nPreferência de Emprego:$cargo , \nNacionalidade:$nacionalidade , \nTipo Sanguíneo:$tipo_sanguineo")
 
+    var diam = 0
+    var area = 0.0
+    var perim = 0.0
+    var pi = 3.14
 
+    print("digite o diâmetro do circulo:")
+    diam = readLine()!!.toInt()
+
+    var raio: Double = diam.toDouble()/2
+
+    area = pi * raio.pow(2)
+    perim = (raio * 2) * pi
+
+    println("\nCom base no diêmentro $diam, temos que a área do circulo "+ "é igual a $area e seu perimetro é igual a $perim")
 
 }
