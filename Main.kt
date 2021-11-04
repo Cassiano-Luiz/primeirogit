@@ -1,29 +1,29 @@
 fun main(args: Array<String>) {
+    val Cassiano = Estudantes(primeiroNome = "Cassiano", ultimoNome = "Luiz", ra = 13, nota = 50.0, ano = 2)
 
-    adicao(1, 2)
-    subtracao(3,4)
-    multiplicacao(5,6)
-    divisao(7,8)
-    potencia
+    val Caroline = Estudantes(primeiroNome = "Caroline", ultimoNome = "Souza", ra = 14, nota = 55.0, ano = 3)
+
+    val Carlos = Estudantes(primeiroNome = "Carlos", ultimoNome = "Luiz", ra = 15, nota = 60.0, ano = 1)
+
+    Cassiano.primeiroNome
+    Cassiano.mudarAnoSeAprovado()
+
+    val CursoMobile = Curso("inglês", "glebildon", 1)
+
+    CursoMobile.cadastrar(Carlos)
+    CursoMobile.cadastrar(Caroline)
+
+    CursoMobile.numEstudantesCadastrados()
+
+    CursoMobile.removerEstudante(Cassiano)
+    val Estudantes: Array<Estudantes?> = arrayOf(Caroline, Carlos)
+
+    CursoMobile.cadastrar(Estudantes)
+
+    CursoMobile.numEstudantesCadastrados()
+
+    CursoMobile.melhorNota()
+
+    CursoMobile.mostrarEstudantes()
+
 }
-
-   fun adicao( num1: int, num2: int){
-       var result = num1 + num2
-       print("o resultado da adição é: $result ")
-   }
-    fun subtracao ( num1: int, num2: int){
-        var result =num1 - num2
-        print("o resultado da subtração é: $result")
-    }
-    fun multiplicacao (num1: int, num2: int) {
-        var result =num1 * num2
-        println("o resultado da multiplicação é:$result")
-        }
-    fun divisao(num1: double, num2: double){
-        var result = num1 / num 2
-        println("o resultado da divisão é: $result")
-    }
-    fun potencia(num1: double, num2: double){
-        var result = num1 / num2
-        println("o resultado da potencia é: $result")
-    }
