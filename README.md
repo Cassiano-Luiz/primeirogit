@@ -1,77 +1,48 @@
-<img align="right" width="150" height="150" src="https://media-exp1.licdn.com/dms/image/C4E0BAQF7BYCCZt5epw/company-logo_200_200/0?e=2159024400&v=beta&t=qUAFP9bUgBEEXGVQYpUXW1J_OiP8e0r4rFBpqp8OrxA">
+Unscramble App
+===================================
 
-# Kotlin Programming Fundamentals - Assessment
+Starter code for Android Basics codelab - Store the data in a ViewModel
 
- <br/>  
- 
- É hora de vermos o quanto você aprendeu sobre Kotlin e Programação Orientada a Objetos
+Unscramble is  a single player game app that displays scrambled words. To play the game, player has
+to make a word using all the letters from the displayed scrambled word.
 
- 
-
-## Parte 1: Entendendo o projeto Estudante
-
-1. Baixe o código fonte deste projeto e importe para dentro do IntelliJ
-2. Entenda a estrutura do projeto:
-* Pacotes
-* Classes
-* Funcionalidades
-3. Execute o projeto e o teste para um entendimento maior de como o projeto funciona (lembre da Mentalidade de Persistência)
-
-## Parte 2: implementando o que falta na classe Student e StudentService 
-1. Abra a classe Student ```(src/com/generation/model/Student.kt)``` e implemente os seguintes métodos:
-
-```kotlin=
-fun enrollToCourse(course: Course?) {
-    //TODO implement this method
-}
-
-fun isCourseApproved(courseCode: String?): Boolean {
-    //TODO implement this method
-    return false
-}
-
-fun isAttendingCourse(courseCode: String?): Boolean {
-    //TODO implement this method
-    return false
-}
-
-fun getApprovedCourses(): List<Course?>? {
-    //TODO implement this method
-    return null
-}
-
-```
-2. Abra a classe StudentService ```(src/com/generation/service/StudentService.kt)``` e implemente os seguintes métodos:
-```Kotlin=
-fun isSubscribed(studentId: String?): Boolean {
-    //TODO implement this method
-    return false
-}
-
-fun showSummary() {
-    //TODO implement
-}
-```
-Dica: Para exibir o sumário (que nesse caso, serão os estudantes que já foram inscritos), use o println()
+Used in the [Android Basics with Kotlin](https://developer.android
+.com/courses/android-basics-kotlin/course) course.
 
 
-## Parte 3: Implementando os métodos que faltam no Main
+Pre-requisites
+--------------
 
-1. Teste o programa e verifica se funciona como o esperado:
+You need to know:
+- Knowledge about Fragments.
+- How to design a layout in ConstraintLayout.
+- Able to write control flow statements (if / else, when statements).
+- Able to update the UI of the app based on user input.
+- Able to add a click listener to a Button.
 
-* Crie um novo estudante
-* Cadastra o estudante em alguns cursos.
-* Use a opção de Show Student Summary e Show Course Summary para verificar se está tudo ok
 
+Getting Started
+---------------
 
-## Parte 4: Lidando com Exceções
+1. Download and run the app.
 
-1. Registre um novo usuário, passando uma data incorreta.
-2. Verifique o erro que acontece após rodar o programa
-3. Acesse a classe PinterHelper e modifique o método createStudentMenu, para lidar com a exceção que ocorre quando o usuário insere uma data incorreta.
-4. Mostre uma mensagem de erro para o usuário após conseguir lidar com a Exceção, além de atribuir uma data padrão para a variável birthDate, para não quebrar o programa.
+License
+-------
 
-## Parte 5: Escrevendo Testes Unitários
-1. Escreva ao menos 1 teste unitário para a classe StudentService
-2. Escreva ao menos 1 teste unitário para a classe CourseService
+Copyright (C) 2020 The Android Open Source Project.
+
+Licensed to the Apache Software Foundation (ASF) under one or more contributor
+license agreements.  See the NOTICE file distributed with this work for
+additional information regarding copyright ownership.  The ASF licenses this
+file to you under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License.  You may obtain a copy of
+the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+License for the specific language governing permissions and limitations under
+the License.
 
