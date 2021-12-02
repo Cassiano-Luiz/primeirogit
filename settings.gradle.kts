@@ -1,3 +1,3 @@
 
-rootProject.name = "FinalProject"
+rootProject.name = "DescontoCinema"
 
