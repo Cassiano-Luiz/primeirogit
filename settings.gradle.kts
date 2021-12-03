@@ -1,3 +1,3 @@
 
-rootProject.name = "ImparEPar"
+rootProject.name = "IgualZero"
 
