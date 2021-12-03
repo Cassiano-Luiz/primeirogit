@@ -1,3 +1,3 @@
 
-rootProject.name = "MesdoAno"
+rootProject.name = "TabuadaFor"
 
