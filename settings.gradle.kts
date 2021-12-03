@@ -1,3 +1,3 @@
 
-rootProject.name = "IgualZero"
+rootProject.name = "cadastroDeConvidados"
 
