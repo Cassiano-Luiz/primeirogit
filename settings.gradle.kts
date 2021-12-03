@@ -1,3 +1,3 @@
 
-rootProject.name = "ParesEImpares"
+rootProject.name = "TabuadaFor"
 
