@@ -1,3 +1,3 @@
 
-rootProject.name = "TabuadaFor"
+rootProject.name = "Medias"
 
