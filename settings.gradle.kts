@@ -1,3 +1,3 @@
 
-rootProject.name = "Medias"
+rootProject.name = "ImparEPar"
 
