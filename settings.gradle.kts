@@ -1,3 +1,3 @@
 
-rootProject.name = "DescontoCinema"
+rootProject.name = "MesdoAno"
 
